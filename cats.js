@@ -4,7 +4,7 @@ $('.summon-cats').on('click', function(event){
       url:'http://bitkittens.herokuapp.com/cats.json',
       method:'GET',
       data:{},
-      dataType:'html'
+      dataType:'json'
     }).done(function(reponse){
     });
 });
